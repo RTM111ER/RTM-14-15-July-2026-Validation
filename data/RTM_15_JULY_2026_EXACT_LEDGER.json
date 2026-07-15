@@ -1,0 +1,264 @@
+{
+  "title": "RTM 15 July 2026 Exact Ledger",
+  "version": "2.1",
+  "measurement_date": "2026-07-15",
+  "hebrew_date": "1 Av 5786",
+  "prior_record_doi": "10.5281/zenodo.21363194",
+  "protocol": {
+    "gematria": "Standard Hebrew Mispar Hechrachi; final letters retain standard-form values; spaces and punctuation score zero.",
+    "exact_string_rule": "Every Hebrew source string is evaluated exactly as written. No spelling normalization or substitution is performed inside the locked ledger.",
+    "date_representations": {
+      "157": "15|7 compact day-month form",
+      "1507": "15|07 zero-padded DDMM form"
+    },
+    "biographical_inputs": {
+      "birth_year": 1982,
+      "measurement_year": 2026,
+      "age": 44,
+      "full_name_value": 612,
+      "first_name_value": 320
+    }
+  },
+  "strings": [
+    {
+      "id": "S01",
+      "hebrew": "א באב תשפו",
+      "english": "1 Av 5786 - exact calculation string",
+      "function": "Hebrew date string",
+      "value": 792
+    },
+    {
+      "id": "S02",
+      "hebrew": "שש שלוש חמש",
+      "english": "six three five",
+      "function": "Digit-by-digit representation of 635",
+      "value": 1584
+    },
+    {
+      "id": "S03",
+      "hebrew": "מה התאריך העברי של היום",
+      "english": "what is today's Hebrew date?",
+      "function": "Fixed same-day question",
+      "value": 1359
+    },
+    {
+      "id": "S04",
+      "hebrew": "חמש מאות שישים ושבע",
+      "english": "five hundred sixty-seven",
+      "function": "Full spelling of 567",
+      "value": 1833
+    },
+    {
+      "id": "S05",
+      "hebrew": "תאריך היום הוא אחת חמש שבע",
+      "english": "today's date is one five seven (feminine one)",
+      "function": "Date statement encoding 157",
+      "value": 1833
+    },
+    {
+      "id": "S06",
+      "hebrew": "מציאות מתעדכנת רטרואקטיבית",
+      "english": "reality updates retroactively",
+      "function": "RTM model-statement phrase",
+      "value": 2478
+    },
+    {
+      "id": "S07",
+      "hebrew": "תאריך היום הוא אחד חמש שבע",
+      "english": "today's date is one five seven (masculine one)",
+      "function": "Parallel date statement encoding 157",
+      "value": 1437
+    },
+    {
+      "id": "S08",
+      "hebrew": "ערן הרפז בן ארבעים וארבע",
+      "english": "Eran Harpaz aged forty-four",
+      "function": "Observer-age phrase",
+      "value": 1266
+    },
+    {
+      "id": "S09",
+      "hebrew": "אלף שלוש מאות חמישים ותשע",
+      "english": "one thousand three hundred fifty-nine",
+      "function": "Full spelling of 1359",
+      "value": 2378
+    },
+    {
+      "id": "S10",
+      "hebrew": "חמש עשרה ביולי אלפיים עשרים ושש",
+      "english": "15 July 2026",
+      "function": "Full Gregorian date phrase",
+      "value": 2378
+    },
+    {
+      "id": "S11",
+      "hebrew": "שש מאות ושתים עשרה",
+      "english": "six hundred twelve",
+      "function": "Full spelling of 612",
+      "value": 2378
+    },
+    {
+      "id": "S12",
+      "hebrew": "ערן הרפז",
+      "english": "Eran Harpaz",
+      "function": "Observer full name",
+      "value": 612
+    },
+    {
+      "id": "S13",
+      "hebrew": "ערן",
+      "english": "Eran",
+      "function": "Observer first name",
+      "value": 320
+    },
+    {
+      "id": "S14",
+      "hebrew": "ארבעים וארבע",
+      "english": "forty-four",
+      "function": "Full spelling of age 44",
+      "value": 602
+    },
+    {
+      "id": "S15",
+      "hebrew": "ארבע ארבע",
+      "english": "four four",
+      "function": "Digit-by-digit representation of age 44",
+      "value": 546
+    },
+    {
+      "id": "S16",
+      "hebrew": "שלוש מאות עשרים",
+      "english": "three hundred twenty",
+      "function": "Full spelling of 320",
+      "value": 1703
+    }
+  ],
+  "arithmetic_checks": [
+    {
+      "id": "E01",
+      "expression": "792 + 792",
+      "expected": 1584,
+      "family": "A"
+    },
+    {
+      "id": "E02",
+      "expression": "1584 - 635",
+      "expected": 949,
+      "family": "A"
+    },
+    {
+      "id": "E03",
+      "expression": "949 - 792",
+      "expected": 157,
+      "family": "A"
+    },
+    {
+      "id": "E04",
+      "expression": "1359 - 792",
+      "expected": 567,
+      "family": "B"
+    },
+    {
+      "id": "E05",
+      "expression": "2478 - 1833",
+      "expected": 645,
+      "family": "C"
+    },
+    {
+      "id": "E06",
+      "expression": "1437 - 645",
+      "expected": 792,
+      "family": "C"
+    },
+    {
+      "id": "E07",
+      "expression": "1833 - 567",
+      "expected": 1266,
+      "family": "D"
+    },
+    {
+      "id": "E08",
+      "expression": "2378 - 1266 - 792",
+      "expected": 320,
+      "family": "G"
+    },
+    {
+      "id": "E09",
+      "expression": "2378 + 2378",
+      "expected": 4756,
+      "family": "H"
+    },
+    {
+      "id": "E10",
+      "expression": "4756 - 1982 - 2026",
+      "expected": 748,
+      "family": "H"
+    },
+    {
+      "id": "E11",
+      "expression": "792 - 748",
+      "expected": 44,
+      "family": "H"
+    },
+    {
+      "id": "E12",
+      "expression": "1507 - 792",
+      "expected": 715,
+      "family": "I"
+    },
+    {
+      "id": "E13",
+      "expression": "715 - 602",
+      "expected": 113,
+      "family": "I"
+    },
+    {
+      "id": "E14",
+      "expression": "113 - 44",
+      "expected": 69,
+      "family": "I"
+    },
+    {
+      "id": "E15",
+      "expression": "546 - 69",
+      "expected": 477,
+      "family": "I"
+    },
+    {
+      "id": "E16",
+      "expression": "477 - 157",
+      "expected": 320,
+      "family": "I"
+    },
+    {
+      "id": "E17",
+      "expression": "1703 + 1703",
+      "expected": 3406,
+      "family": "J"
+    },
+    {
+      "id": "E18",
+      "expression": "3406 - 1982",
+      "expected": 1424,
+      "family": "J"
+    },
+    {
+      "id": "E19",
+      "expression": "2026 - 1424",
+      "expected": 602,
+      "family": "J"
+    }
+  ],
+  "closure_families": {
+    "A": "Hebrew-date self-return to 157 through the exact digit phrase for 635",
+    "B": "Question-date residual 567 closes through shared 1833 to a date statement",
+    "C": "'Reality updates retroactively' phrase loop returns through parallel date statement to 792",
+    "D": "1833 and 567 return to observer-age phrase 1266",
+    "E": "Triple 2378 identity: spelled 1359, full 15 July 2026 date phrase, spelled 612; 612 is observer full name",
+    "F": "Cross-day carryover: 2378 already timestamped in 14 July record becomes the 15 July full-date phrase value",
+    "G": "2378 - 1266 - 792 returns to first-name value 320",
+    "H": "Doubled 2378, birth year, measurement year, and Hebrew-date value return to age 44",
+    "I": "Two date encodings and two age encodings return to first-name value 320",
+    "J": "Full spelling of 320, birth year, and measurement year return to full spelling of age 44 (602)"
+  }
+}

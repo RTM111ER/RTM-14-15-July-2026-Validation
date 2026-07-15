@@ -1,0 +1,118 @@
+{
+  "implementation": "independent_second_implementation",
+  "conditional_template_null": true,
+  "ledger_audit": {
+    "strings": 16,
+    "equations": 19,
+    "failures": [],
+    "pass": true
+  },
+  "observed_day1": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "E": true,
+    "F": true,
+    "G": true,
+    "H": true,
+    "I": true
+  },
+  "observed_day2": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "E": true,
+    "G": true,
+    "H": true,
+    "I": true,
+    "J": true
+  },
+  "base_scan": {
+    "day1_hits": [
+      "2026-07-14"
+    ],
+    "day2_hits": [
+      "2026-07-15"
+    ],
+    "sequential_hits": [
+      [
+        "2026-07-14",
+        "2026-07-15"
+      ]
+    ]
+  },
+  "month_spelling_sensitivity": {
+    "mapping_changes": {
+      "3": "בסיוון",
+      "8": "במרחשון",
+      "12": "באדר א",
+      "13": "באדר ב"
+    },
+    "day1_hits": [
+      "2026-07-14"
+    ],
+    "day2_hits": [
+      "2026-07-15"
+    ],
+    "sequential_hits": [
+      [
+        "2026-07-14",
+        "2026-07-15"
+      ]
+    ]
+  },
+  "exact_letter_nulls": {
+    "fixed_letters": {
+      "numerator": 6120,
+      "denominator": 182088125824,
+      "p": 3.3610099353295434e-08,
+      "z_one_sided": 5.39844705440773,
+      "rows": [
+        [
+          "2026-07-15",
+          320,
+          292,
+          44,
+          1982,
+          6120
+        ]
+      ]
+    },
+    "joint_letters": {
+      "numerator": 6120,
+      "denominator": 13367817669243136,
+      "p": 4.578159391028337e-13,
+      "z_one_sided": 7.142627993777638,
+      "rows": [
+        [
+          "2026-07-15",
+          320,
+          292,
+          44,
+          1982,
+          6120
+        ]
+      ]
+    },
+    "sequential_letters": {
+      "numerator": 6120,
+      "denominator": 1604116269734077440,
+      "p": 3.815184793939247e-15,
+      "z_one_sided": 7.77357126065406,
+      "rows": [
+        [
+          "2026-07-14",
+          "2026-07-15",
+          320,
+          292,
+          44,
+          1982,
+          58,
+          6120
+        ]
+      ]
+    }
+  }
+}

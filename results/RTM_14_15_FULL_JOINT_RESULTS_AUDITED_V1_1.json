@@ -1,0 +1,298 @@
+{
+  "manifest": {
+    "protocol_version": "RTM-14-15-JULY-2026-FULL-JOINT-v1.1-AUDITED",
+    "window_start": "1900-01-01",
+    "window_end": "2100-12-31",
+    "observed_day1": "2026-07-14",
+    "observed_day2": "2026-07-15",
+    "day2_full_gate": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "G",
+      "H",
+      "I",
+      "J"
+    ],
+    "day1_full_gate": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I"
+    ],
+    "age_range": [
+      18,
+      90
+    ],
+    "apartment_range": [
+      1,
+      120
+    ],
+    "numeric_first_range": [
+      3,
+      1200
+    ],
+    "numeric_surname_range": [
+      4,
+      1600
+    ],
+    "uniform_letter_support": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      200,
+      300,
+      400
+    ],
+    "question_text": "מה התאריך העברי של היום",
+    "model_statement_text": "מציאות מתעדכנת רטרואקטיבית",
+    "rtm_fixed_anchor": 116,
+    "ledger_sha256": "4eb9d07445c594e6436755922c6d27773ab211da78bf21f4f0cd88fa7b8684bc",
+    "script_sha256": "c48f44cdf27e70575f7218c199dcfdec6abc4e20f1da4c4d75c0f2db3b741f54",
+    "manifest_sha256": "2d0134f51bbb3216899dc91555a36ee601baf9bf1abbefb42ad61e1068e8204c"
+  },
+  "mode": "all-exact",
+  "statistical_scope": {
+    "claim_type": "conditional frozen-template null probability",
+    "discovery_process_modeled": false,
+    "phrase_search_multiplicity_modeled": false,
+    "representation_search_multiplicity_modeled": false,
+    "arithmetic_path_search_multiplicity_modeled": false,
+    "warning": "Reported p and sigma values are exact only for the declared finite null model and frozen template. They are not a universal post-selection-adjusted probability of the historical discovery process."
+  },
+  "deterministic_audit": {
+    "calendar_ok": true,
+    "strings_passed": 16,
+    "strings_total": 16,
+    "arithmetic_passed": 19,
+    "arithmetic_total": 19,
+    "total_passed": 35,
+    "total_checks": 35,
+    "failures": [],
+    "pass": true
+  },
+  "observed_joint_gates": {
+    "day1_families": {
+      "A": true,
+      "B": true,
+      "C": true,
+      "D": true,
+      "E": true,
+      "F": true,
+      "G": true,
+      "H": true,
+      "I": true
+    },
+    "day1_9_of_9": true,
+    "day2_families": {
+      "A": true,
+      "B": true,
+      "C": true,
+      "D": true,
+      "E": true,
+      "G": true,
+      "H": true,
+      "I": true,
+      "J": true
+    },
+    "day2_9_of_9": true,
+    "chronological_carryover": true,
+    "sequential_full_joint_gate": true
+  },
+  "exhaustive_scan": {
+    "date_window": [
+      "1900-01-01",
+      "2100-12-31"
+    ],
+    "dates_scanned": 73414,
+    "pairs_scanned": 73413,
+    "day1_9_of_9_hits": [
+      "2026-07-14"
+    ],
+    "day2_full_9_of_9_hits": [
+      "2026-07-15"
+    ],
+    "sequential_full_hits": [
+      [
+        "2026-07-14",
+        "2026-07-15"
+      ]
+    ],
+    "day2_family_counts": {
+      "A": 26,
+      "B": 75,
+      "C": 29,
+      "D": 54,
+      "E": 23,
+      "G": 35,
+      "H": 10,
+      "I": 16,
+      "J": 365
+    }
+  },
+  "exact_nulls": {
+    "fixed_date_letters": {
+      "model": "fixed_date_letters",
+      "numerator_weight": 6120,
+      "denominator_weight": 182088125824,
+      "p_exact": 3.3610099353295434e-08,
+      "z_one_sided": 5.39844705440773,
+      "matching_parameter_rows": [
+        {
+          "first": 320,
+          "surname": 292,
+          "age": 44,
+          "birth_year": 1982,
+          "apartment": 58,
+          "full": 612,
+          "weight": 6120,
+          "date_ordinal": 739812
+        }
+      ]
+    },
+    "fixed_date_numeric": {
+      "model": "fixed_date_numeric",
+      "numerator_weight": 1,
+      "denominator_weight": 139664038,
+      "p_exact": 7.160039293722841e-09,
+      "z_one_sided": 5.669516827975611,
+      "matching_parameter_rows": [
+        {
+          "first": 320,
+          "surname": 292,
+          "age": 44,
+          "birth_year": 1982,
+          "apartment": 58,
+          "full": 612,
+          "weight": 1,
+          "date_ordinal": 739812
+        }
+      ]
+    },
+    "joint_date_observer_letters": {
+      "model": "joint_date_observer_letters",
+      "numerator_weight": 6120,
+      "denominator_weight": 13367817669243136,
+      "p_exact": 4.578159391028337e-13,
+      "z_one_sided": 7.142627993777638,
+      "matching_parameter_rows": [
+        {
+          "date_ordinal": 739812,
+          "year": 2026,
+          "month": 7,
+          "day": 15,
+          "first": 320,
+          "surname": 292,
+          "age": 44,
+          "birth_year": 1982,
+          "apartment": 58,
+          "full": 612,
+          "weight": 6120
+        }
+      ]
+    },
+    "joint_date_observer_numeric": {
+      "model": "joint_date_observer_numeric",
+      "numerator_weight": 1,
+      "denominator_weight": 10253295685732,
+      "p_exact": 9.75296168812875e-14,
+      "z_one_sided": 7.352139388302116,
+      "matching_parameter_rows": [
+        {
+          "date_ordinal": 739812,
+          "year": 2026,
+          "month": 7,
+          "day": 15,
+          "first": 320,
+          "surname": 292,
+          "age": 44,
+          "birth_year": 1982,
+          "apartment": 58,
+          "full": 612,
+          "weight": 1
+        }
+      ]
+    },
+    "sequential_pair_letters": {
+      "model": "sequential_pair_letters",
+      "numerator_weight": 6120,
+      "denominator_weight": 1604116269734077440,
+      "p_exact": 3.815184793939247e-15,
+      "z_one_sided": 7.77357126065406,
+      "matching_parameter_rows": [
+        {
+          "day1_ordinal": 739811,
+          "day2_ordinal": 739812,
+          "day1_year": 2026,
+          "day1_month": 7,
+          "day1_day": 14,
+          "day2_year": 2026,
+          "day2_month": 7,
+          "day2_day": 15,
+          "first": 320,
+          "surname": 292,
+          "age": 44,
+          "birth_year": 1982,
+          "apartment": 58,
+          "full": 612,
+          "weight": 6120
+        }
+      ]
+    },
+    "sequential_pair_numeric": {
+      "model": "sequential_pair_numeric",
+      "numerator_weight": 1,
+      "denominator_weight": 1230378722603280,
+      "p_exact": 8.12757878228066e-16,
+      "z_one_sided": 7.967016037991655,
+      "matching_parameter_rows": [
+        {
+          "day1_ordinal": 739811,
+          "day2_ordinal": 739812,
+          "day1_year": 2026,
+          "day1_month": 7,
+          "day1_day": 14,
+          "day2_year": 2026,
+          "day2_month": 7,
+          "day2_day": 15,
+          "first": 320,
+          "surname": 292,
+          "age": 44,
+          "birth_year": 1982,
+          "apartment": 58,
+          "full": 612,
+          "weight": 1
+        }
+      ]
+    },
+    "sequential_increment_diagnostic": {
+      "joint_day2_p": 4.578159391028337e-13,
+      "sequential_p": 3.815184793939247e-15,
+      "ratio_joint_to_sequential": 119.99836543438583,
+      "interpretation": "Direct joint counting is authoritative. Do not interpret the two daily uniqueness results as independent p-values. In this frozen model the sequential extension mainly adds the apartment constraint after the Day-2 full gate has already fixed the date and observer row."
+    }
+  }
+}

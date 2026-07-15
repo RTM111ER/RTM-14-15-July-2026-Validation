@@ -1,0 +1,165 @@
+{
+  "manifest": {
+    "protocol_version": "RTM-14-15-JULY-2026-FULL-JOINT-v1.1-AUDITED",
+    "window_start": "1900-01-01",
+    "window_end": "2100-12-31",
+    "observed_day1": "2026-07-14",
+    "observed_day2": "2026-07-15",
+    "day2_full_gate": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "G",
+      "H",
+      "I",
+      "J"
+    ],
+    "day1_full_gate": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I"
+    ],
+    "age_range": [
+      18,
+      90
+    ],
+    "apartment_range": [
+      1,
+      120
+    ],
+    "numeric_first_range": [
+      3,
+      1200
+    ],
+    "numeric_surname_range": [
+      4,
+      1600
+    ],
+    "uniform_letter_support": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      200,
+      300,
+      400
+    ],
+    "question_text": "מה התאריך העברי של היום",
+    "model_statement_text": "מציאות מתעדכנת רטרואקטיבית",
+    "rtm_fixed_anchor": 116,
+    "ledger_sha256": "4eb9d07445c594e6436755922c6d27773ab211da78bf21f4f0cd88fa7b8684bc",
+    "script_sha256": "c48f44cdf27e70575f7218c199dcfdec6abc4e20f1da4c4d75c0f2db3b741f54",
+    "manifest_sha256": "2d0134f51bbb3216899dc91555a36ee601baf9bf1abbefb42ad61e1068e8204c"
+  },
+  "mode": "gpu",
+  "statistical_scope": {
+    "claim_type": "conditional frozen-template null probability",
+    "discovery_process_modeled": false,
+    "phrase_search_multiplicity_modeled": false,
+    "representation_search_multiplicity_modeled": false,
+    "arithmetic_path_search_multiplicity_modeled": false,
+    "warning": "Reported p and sigma values are exact only for the declared finite null model and frozen template. They are not a universal post-selection-adjusted probability of the historical discovery process."
+  },
+  "deterministic_audit": {
+    "calendar_ok": true,
+    "strings_passed": 16,
+    "strings_total": 16,
+    "arithmetic_passed": 19,
+    "arithmetic_total": 19,
+    "total_passed": 35,
+    "total_checks": 35,
+    "failures": [],
+    "pass": true
+  },
+  "observed_joint_gates": {
+    "day1_families": {
+      "A": true,
+      "B": true,
+      "C": true,
+      "D": true,
+      "E": true,
+      "F": true,
+      "G": true,
+      "H": true,
+      "I": true
+    },
+    "day1_9_of_9": true,
+    "day2_families": {
+      "A": true,
+      "B": true,
+      "C": true,
+      "D": true,
+      "E": true,
+      "G": true,
+      "H": true,
+      "I": true,
+      "J": true
+    },
+    "day2_9_of_9": true,
+    "chronological_carryover": true,
+    "sequential_full_joint_gate": true
+  },
+  "gpu_monte_carlo": {
+    "protocol_version": "RTM-14-15-JULY-2026-FULL-JOINT-v1.1-AUDITED",
+    "statistical_scope": {
+      "claim_type": "conditional frozen-template null probability",
+      "discovery_process_modeled": false,
+      "phrase_search_multiplicity_modeled": false,
+      "representation_search_multiplicity_modeled": false,
+      "arithmetic_path_search_multiplicity_modeled": false,
+      "warning": "Reported p and sigma values are exact only for the declared finite null model and frozen template. They are not a universal post-selection-adjusted probability of the historical discovery process."
+    },
+    "gpu_model": "sequential_letters",
+    "target_trials": 100000000,
+    "batch_size_requested": 1000000,
+    "seed": 20260717,
+    "next_batch": 100,
+    "trials_completed": 100000000,
+    "full_hits": 0,
+    "best_score": 8,
+    "score_histogram": {
+      "0": 99160479,
+      "1": 832383,
+      "2": 3657,
+      "3": 2075,
+      "4": 1347,
+      "5": 45,
+      "7": 3,
+      "8": 11
+    },
+    "device_name": "NVIDIA GeForce RTX 5090",
+    "started_unix": 1784145048.3612962,
+    "elapsed_seconds": 0.17778873443603516,
+    "monte_carlo_interval": {
+      "p_addone": 9.9999999e-09,
+      "z_addone_one_sided": 5.612001245904789,
+      "ci95_lower": 0.0,
+      "ci95_upper": 2.995732228949777e-08,
+      "z_lower_bound_from_ci95_upper": 5.419055717431537
+    },
+    "finished_unix": 1784145048.5392997
+  }
+}

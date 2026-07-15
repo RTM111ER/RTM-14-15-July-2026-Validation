@@ -1,0 +1,37 @@
+{
+  "scope": "deterministic semantic pathway supplement; non-gating",
+  "phrase": "אני יודע שהמציאות מתעדכנת רטרואקטיבית",
+  "anchors": {
+    "792": "א׳ באב תשפ״ו / locked same-day Hebrew-date value",
+    "1507": "15|07 / zero-padded Gregorian date encoding",
+    "635": "existing core node represented by שש שלוש חמש in Closure family A",
+    "157": "15|7 / terminal of the established core date-return branch"
+  },
+  "checks": [
+    {
+      "id": "S01",
+      "type": "string",
+      "expression": "אני יודע שהמציאות מתעדכנת רטרואקטיבית",
+      "expected": 2934,
+      "actual": 2934,
+      "pass": true
+    },
+    {
+      "id": "E01",
+      "type": "arithmetic",
+      "expression": "2934 - 792",
+      "expected": 2142,
+      "actual": 2142,
+      "pass": true
+    },
+    {
+      "id": "E02",
+      "type": "arithmetic",
+      "expression": "2142 - 1507",
+      "expected": 635,
+      "actual": 635,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,20 @@
+{
+  "title": "RTM 15 July 2026 - Deterministic Semantic Pathway Supplement",
+  "scope": "Non-gating deterministic pathway documented in the research note; not included in the locked A-J 9/9 statistical gate or reported sigma values.",
+  "exact_string": {
+    "hebrew": "אני יודע שהמציאות מתעדכנת רטרואקטיבית",
+    "english_gloss": "I know that reality updates retroactively",
+    "gematria": 2934
+  },
+  "locked_network_anchors_reused": {
+    "hebrew_date_value": 792,
+    "zero_padded_gregorian_date": 1507,
+    "existing_core_node": 635,
+    "compact_gregorian_date": 157
+  },
+  "arithmetic": [
+    {"expression": "2934 - 792", "result": 2142},
+    {"expression": "2142 - 1507", "result": 635}
+  ],
+  "structural_note": "The pathway terminates at 635, an already established core node represented in Closure family A by the exact phrase שש שלוש חמש (gematria 1584). That existing core branch then returns to 157 = 15|7. The final 635-to-157 relation is not counted as a new equation in this supplement."
+}
